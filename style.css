@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("img/wolf.png");
+    background-position: center;
+    background-size: cover;
+
+}
+form{
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 0%;
+    width: 100%;
+    max-width: 380px;
+    text-align: left;
+    border-radius: 8px;
+    margin: 0px 15px;
+    box-shadow: 0 4px 8px aqua;
+    margin-right: 50px;
+    
+    background-color: rgba(255,255,255,0.7);
+
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0px 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+
+}
+button[type="submit"] {
+    background-color: rgb(9, 153, 151);
+    color: #050000;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+
+
+}
+/*  Table */
+
+table{
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(9, 153, 151) ;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+th,td {
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+th{
+    background-color: aquamarine;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td{
+    border-top: 1px solid #ddd;
+    padding:8px 12px ;
+}
+h2{
+    text-align: center;
+}
+
+

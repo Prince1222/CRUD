@@ -1,0 +1,112 @@
+/* Reset & General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* Green gradient */
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4caf50; /* Green */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1 {
+    font-size: 24px;
+}
+.navbar .button {
+    background-color: #fff;
+    color: #4caf50;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.navbar .button:hover {
+    background-color: #388e3c; /* Darker green */
+    color: #fff;
+}
+
+/* Container */
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+.container h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+table th {
+    background-color: #4caf50; /* Green header */
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+table tr:hover {
+    background-color: #f1f1f1;
+}
+.no-records {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.edit {
+    color: #388e3c; /* Dark green */
+    text-decoration: none;
+}
+.delete {
+    color: #d32f2f; /* Red for delete */
+    text-decoration: none;
+}
+.add {
+    color: #1976d2; /* Blue for add */
+    text-decoration: none;
+}
+.edit:hover, .delete:hover, .add:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #4caf50; /* Green footer */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+footer a:hover {
+    text-decoration: none;
+}
